@@ -53,7 +53,57 @@ ASP.NET provides support for HTTPS out of the box. It automatically generates a 
 
 You can use your .NET skills and ecosystem to share logic from your web API to other apps built with .NET, including mobile, web, desktop, and services.
 
+# Features
+Introduction to web APIs and RESTful principles
+Step-by-step guide to setting up a web API
+Code examples with detailed explanations
+Instructions for testing and debugging APIs
+Best practices for API development and deployment
 
 
+# Installation
+To set up this project locally, follow these steps:
+
+Clone the repository:
+git clone https://github.com/Utsav-AD/IntroToWebAPI.git
+
+Navigate to the project directory:
+cd IntroToWebAPI
+
+Install the required dependencies:
+[command to install dependencies]
+Usage
+
+To run the web API, execute the following command:
+[command to run the server]
+After running the above command, the API will be accessible at http://localhost:[port]/. You can interact with the API using tools like Postman or via your browser.
+
+Example Endpoints
+GET /api/resource - Retrieves a list of resources
+POST /api/resource - Creates a new resource
+PUT /api/resource/{id} - Updates an existing resource
+DELETE /api/resource/{id} - Deletes a resource
+
+
+# Project Structure
+IntroToWebAPI/
+│
+├── src/                    # Source code for the API
+│   ├── routes/             # API route definitions
+│   ├── models/             # Database models
+│   └── app.py              # Main application file
+│
+├── tests/                  # Test cases for the API
+│
+├── README.md               # Project documentation
+├── requirements.txt        # Dependencies (for Python)
+└── package.json            # Dependencies (for Node.js)
+
+
+# Contributing
+Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or create a pull request. Please ensure that your contributions adhere to the project's code of conduct.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
